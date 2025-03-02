@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vamos a Tomar</title>
+    <title>Cervezas 🍻</title>
     <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
 </head>
 <body>
+
     <div class="container">
-        <h1>Vamos a tomar ¿o qué?</h1>
-        <button onclick="irWhatsApp()">Sí, vamos</button>
+        <h1>¿Vamos a tomar o quéeeeeeee? 🍻</h1>
+        <p>¿Quieres una cerveza?</p>
+        <button onclick="irWhatsApp()">Sí, yo jalo</button>
         <button onclick="noPuedo()">No puedo</button>
+        <p class="jodeteeeeee" id="mensaje" style="display: none;">¡JÓDETE! 😂</p>
     </div>
 
-    <script>
-        function irWhatsApp() {
-            // Reemplaza el número con tu propio número de WhatsApp
-            window.location.href = "https://wa.me/523223525743"; 
-        }
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
 
-        function noPuedo() {
-            // Cambiar la interfaz a "jodeteeeeee"
-            document.querySelector('.container').innerHTML = '<h1 class="jodeteeeeee">Jodeteeeeee</h1>';
-        }
-    </script>
 </body>
 </html>
